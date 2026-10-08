@@ -14,7 +14,12 @@ create table if not exists public.threat_reports (
 alter table public.threat_reports enable row level security;
 drop policy if exists "baca publik" on public.threat_reports;
 create policy "baca publik" on public.threat_reports for select to anon using (true);
-alter publication supabase_realtime add table public.threat_reports;
+do $$ begin
+  if not exists (select 1 from pg_publication_tables
+                 where pubname = 'supabase_realtime' and schemaname = 'public' and tablename = 'threat_reports') then
+    alter publication supabase_realtime add table public.threat_reports;
+  end if;
+end $$;
 
 -- Secret disimpan di Supabase Vault, bukan di kode
 select vault.create_secret('__HMAC_SECRET__', 'webhook_hmac_secret')
