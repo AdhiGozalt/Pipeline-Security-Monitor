@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Perwira Security</title>
+<title>Sentinel Security</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -53,7 +53,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><div class="logo"></div><div><b>PERWIRA SECURITY</b><small>Sistem Monitoring Keamanan &amp; Integrasi AI Realtime</small></div></div>
+  <div class="brand"><div class="logo"></div><div><b>SENTINEL SECURITY</b><small>Sistem Monitoring Keamanan &amp; Integrasi AI Realtime</small></div></div>
   <span class="pill" id="sys"><span class="dot"></span>Sistem Online</span>
 </header>
 
@@ -73,7 +73,7 @@
       <div class="item"><span class="ic">⚡</span><div><small>Supabase Realtime</small><b id="cSb">…</b></div></div>
     </div>
     <div class="card">
-      <h3>Laporan Terbaru (Supabase)</h3><p class="sub">Tabel <code>report</code></p>
+      <h3>Laporan Terbaru (Supabase)</h3><p class="sub">Tabel <code>threat_reports</code></p>
       <table><thead><tr><th>Status</th><th>Lvl</th><th>Pesan</th></tr></thead><tbody id="rows"><tr><td colspan="3" style="color:var(--mut)">Memuat…</td></tr></tbody></table>
     </div>
   </div>
@@ -193,13 +193,13 @@ function renderRows(data) {
   const sb = supabase.createClient(cfg.supabaseUrl, cfg.supabaseAnonKey);
   let cache = [];
   const load = async () => {
-    const { data, error } = await sb.from('report').select('*').order('created_at', { ascending: false }).limit(8);
+    const { data, error } = await sb.from('threat_reports').select('*').order('created_at', { ascending: false }).limit(8);
     if (error) { log('Supabase: ' + error.message); return; }
     cache = data; renderRows(data);
     if (data[0]) setStatus(data[0].status, data[0].level, data[0].pesan, data[0].created_at);
   };
   await load();
-  sb.channel('threats').on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'report' }, (p) => {
+  sb.channel('threats').on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'threat_reports' }, (p) => {
     log('Realtime: laporan baru dari Supabase → ' + p.new.status);
     cache = [p.new, ...cache].slice(0, 8); renderRows(cache);
     setStatus(p.new.status, p.new.level, p.new.pesan, p.new.created_at);

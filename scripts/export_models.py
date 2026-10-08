@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FEATS = ["Frekuensi_Serangan_Siber", "Jumlah_Anomali_Lalu_Lintas_Data", "Sentimen_Media_Sosial_Lokal",
          "Kepadatan_Penduduk_Area", "Aktivitas_Enkripsi_Mencurigakan"]
 LABEL = "Kategori_Ancaman"
-CSV = sys.argv[1] if len(sys.argv) > 1 else "maritime_border_data.csv"
+CSV = sys.argv[1] if len(sys.argv) > 1 else "dummy_threat_data_180_corrected.csv"
 if len(sys.argv) > 2:  # opsional: daftar fitur dipisah koma
     FEATS = sys.argv[2].split(",")
 if len(sys.argv) > 3:  # opsional: nama kolom label

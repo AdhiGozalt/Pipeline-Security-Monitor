@@ -1,5 +1,5 @@
 {
-  "name": "pipeline",
+  "name": "sentinel-monitor",
   "private": true,
   "type": "module",
   "engines": { "node": "22.x" }

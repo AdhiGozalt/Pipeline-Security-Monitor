@@ -52,7 +52,7 @@ export default async function handler(req, res) {
   const icon = /bahaya|intervensi|critical/i.test(status) ? '🚨' : '✅';
 
   const tg = await sendTelegram(
-    `${icon} <b>LAPORAN PERWIRA SECURITY</b>\nStatus: <b>${status}</b>\nLevel: ${level}\nDetail: ${pesan}\n` +
+    `${icon} <b>LAPORAN SENTINEL SECURITY</b>\nStatus: <b>${status}</b>\nLevel: ${level}\nDetail: ${pesan}\n` +
       `Sumber: ${payload.table ? 'Supabase (' + payload.table + ')' : 'Simulator'}\nWaktu: ${new Date().toISOString()}\n\n🔐 Pesan terverifikasi HMAC-SHA256`
   );
   return res.status(200).json({ status: 'verified', telegram: tg.ok, diterima: { status, level, pesan } });

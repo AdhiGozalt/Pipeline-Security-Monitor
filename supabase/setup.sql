@@ -3,7 +3,7 @@
 create extension if not exists pg_net;
 create extension if not exists pgcrypto;
 
-create table if not exists public.report (
+create table if not exists public.threat_reports (
   id bigint generated always as identity primary key,
   status text not null check (status in ('Aman', 'Waspada', 'Bahaya Nasional')),
   level int not null default 0,
@@ -11,10 +11,10 @@ create table if not exists public.report (
   created_at timestamptz not null default now()
 );
 
-alter table public.report enable row level security;
-drop policy if exists "baca publik" on public.report;
-create policy "baca publik" on public.report for select to anon using (true);
-alter publication supabase_realtime add table public.report;
+alter table public.threat_reports enable row level security;
+drop policy if exists "baca publik" on public.threat_reports;
+create policy "baca publik" on public.threat_reports for select to anon using (true);
+alter publication supabase_realtime add table public.threat_reports;
 
 -- Secret disimpan di Supabase Vault, bukan di kode
 select vault.create_secret('__HMAC_SECRET__', 'webhook_hmac_secret')
@@ -37,6 +37,6 @@ begin
   return NEW;
 end $$;
 
-drop trigger if exists report_webhook on public.report;
-create trigger report_webhook after insert on public.report
+drop trigger if exists threat_reports_webhook on public.threat_reports;
+create trigger threat_reports_webhook after insert on public.threat_reports
   for each row execute function public.notify_threat_webhook();
