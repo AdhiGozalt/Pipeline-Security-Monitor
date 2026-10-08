@@ -1,4 +1,5 @@
-# Sentinel Monitor
+# Pipeline Security Monitor
+
 
 Sistem monitoring keamanan database real-time: laporan ancaman dari Supabase dikirim lewat webhook bertanda tangan HMAC-SHA256, dianalisis paralel oleh 2 model AI (Random Forest + SVM) + NVIDIA NIM, dikirim sebagai alert Telegram, dan ditampilkan di dashboard yang di-deploy otomatis ke Vercel via GitHub Actions.
 
