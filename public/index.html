@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perwira Security</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#070b16;--glass:rgba(255,255,255,.05);--line:rgba(255,255,255,.09);--txt:#e6ebf5;--mut:#8b96ad;
+    --ok:#22c55e;--warn:#f59e0b;--bad:#ef4444;--acc:#6366f1;--acc2:#14b8a6}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Plus Jakarta Sans',sans-serif;color:var(--txt);background:var(--bg);
+    background-image:radial-gradient(circle at 15% 10%,rgba(99,102,241,.18),transparent 40%),radial-gradient(circle at 85% 80%,rgba(20,184,166,.14),transparent 40%);min-height:100vh}
+  header{display:flex;justify-content:space-between;align-items:center;padding:20px 28px;border-bottom:1px solid var(--line)}
+  .brand{display:flex;gap:12px;align-items:center}.brand b{font-size:18px;letter-spacing:.5px}.brand small{display:block;color:var(--mut);font-size:12px}
+  .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--acc),var(--acc2))}
+  .pill{font-size:12px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--glass)}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px;box-shadow:0 0 8px var(--ok)}
+  main{display:grid;grid-template-columns:340px 1fr;gap:20px;padding:24px 28px;max-width:1400px;margin:auto}
+  @media(max-width:900px){main{grid-template-columns:1fr;padding:16px}}
+  .card{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:20px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+  .card h3{margin:0 0 4px;font-size:15px}.card p.sub{margin:0 0 16px;color:var(--mut);font-size:12.5px}
+  .col{display:flex;flex-direction:column;gap:20px}
+  .status{transition:.4s;border-color:rgba(20,184,166,.5);background:linear-gradient(160deg,rgba(20,184,166,.2),var(--glass))}
+  .status .lvl{color:#5eead4}.status.bahaya .lvl{color:#fca5a5}
+  .status.bahaya{border-color:rgba(239,68,68,.55);background:linear-gradient(160deg,rgba(239,68,68,.2),var(--glass))}
+  .status .lvl{font-size:30px;font-weight:800;margin:14px 0 4px}
+  .kv{display:flex;justify-content:space-between;font-size:12.5px;color:var(--mut);margin-top:10px}.kv b{color:var(--txt)}
+  label{font-size:12px;color:var(--mut);display:block;margin:10px 0 6px}
+  input,select,textarea{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--txt);font:inherit;font-size:13px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  button{cursor:pointer;border:0;border-radius:10px;padding:11px 16px;font:600 13px 'Plus Jakarta Sans';color:#fff;background:var(--acc);margin-top:14px;width:100%}
+  button.alt{background:var(--acc2)} button.ghost{background:transparent;border:1px solid var(--line);width:auto;margin:0;padding:6px 12px}
+  .chk{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--mut);margin-top:10px}.chk input{width:auto}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:1100px){.grid2{grid-template-columns:1fr}}
+  .metric{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  .m{background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+  .m .v{font-size:22px;font-weight:800}.m .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px}
+  .tag{font-weight:700}.tag.Aman,.tag.Normal{color:var(--acc2)}.tag.Waspada,.tag.Siaga{color:var(--warn)}.tag.Bahaya,.tag.Intervensi{color:var(--bad)}
+  .nim{margin-top:12px;font-size:12.5px;color:var(--mut);line-height:1.5}
+  pre{font-family:'JetBrains Mono',monospace;font-size:12px;margin:0;max-height:260px;overflow:auto;color:#a5b4fc;white-space:pre-wrap}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--mut);font-weight:600}
+  .full{grid-column:1/-1}
+  .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .badge2{font-size:11px;padding:4px 10px;border-radius:8px;background:rgba(99,102,241,.18);color:#a5b4fc;white-space:nowrap}
+  .item{display:flex;gap:12px;align-items:center;background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}
+  .item .ic{font-size:20px}.item small{display:block;font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}.item b{font-size:13px}
+  .hint{font-size:11.5px;color:var(--mut);margin-top:6px}
+  .airow{display:flex;gap:10px;align-items:center}.airow input{flex:1}.airow button{width:auto;margin:0;white-space:nowrap}
+  .ok{color:var(--ok)}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo"></div><div><b>PERWIRA SECURITY</b><small>Sistem Monitoring Keamanan &amp; Integrasi AI Realtime</small></div></div>
+  <span class="pill" id="sys"><span class="dot"></span>Sistem Online</span>
+</header>
+
+<main>
+  <div class="col">
+    <div class="card status" id="statusCard">
+      <div style="display:flex;justify-content:space-between"><span style="font-size:12px;color:var(--mut)">STATUS KEAMANAN SISTEM</span><span class="pill" id="badge">AMAN</span></div>
+      <div class="lvl" id="lvl">SYSTEM SECURED</div>
+      <div style="font-size:12.5px;color:var(--mut)" id="lvlMsg">Belum ada laporan ancaman.</div>
+      <div class="kv">Level Ancaman <b id="lvlNum">0</b></div>
+      <div class="kv">Update Terakhir <b id="lvlTime">-</b></div>
+    </div>
+    <div class="card">
+      <h3>Konfigurasi Telegram &amp; Bot</h3>
+      <div class="item"><span class="ic">🤖</span><div><small>Telegram Bot Status</small><b id="cTg">…</b></div></div>
+      <div class="item"><span class="ic">🔑</span><div><small>HMAC Security</small><b id="cHm" class="ok">…</b></div></div>
+      <div class="item"><span class="ic">⚡</span><div><small>Supabase Realtime</small><b id="cSb">…</b></div></div>
+    </div>
+    <div class="card">
+      <h3>Laporan Terbaru (Supabase)</h3><p class="sub">Tabel <code>report</code></p>
+      <table><thead><tr><th>Status</th><th>Lvl</th><th>Pesan</th></tr></thead><tbody id="rows"><tr><td colspan="3" style="color:var(--mut)">Memuat…</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="head"><h3>Simulator Webhook HMAC Supabase</h3><span class="badge2">Node.js</span></div>
+      <p class="sub">Simulasikan database Supabase mengirim laporan ke endpoint webhook dengan tanda tangan digital HMAC (Web Crypto API).</p>
+      <div class="row">
+        <div><label>Status</label><select id="sStatus"><option value="Bahaya Nasional">BAHAYA (Kirim Peringatan Ancaman)</option><option value="Aman">AMAN (Kondisi Normal)</option></select></div>
+        <div><label>Level Ancaman</label><select id="sLevel"><option value="3">3 (Tinggi)</option><option value="2">2 (Sedang)</option><option value="1">1 (Rendah)</option><option value="0">0 (Normal)</option></select></div>
+      </div>
+      <label>Pesan Laporan</label><input id="sPesan" value="Percobaan login tidak sah terdeteksi di database port 5432">
+      <label>Kunci Rahasia HMAC (HMAC_SECRET)</label><input id="sKey" type="password" placeholder="tempel HMAC_SECRET">
+      <div class="hint">Gunakan kunci yang sama dengan environment variable server untuk lolos verifikasi.</div>
+      <label class="chk"><input type="checkbox" id="sTamper"> Kirim dengan kunci/payload rusak (Simulasi Serangan Hacker) → 401</label>
+      <label class="chk"><input type="checkbox" id="sMissing"> Kirim tanpa header signature → 400</label>
+      <button onclick="kirimWebhook()">Kirim Webhook Terlindungi HMAC</button>
+      <div class="metric"><div class="m"><div class="v" id="whCode">-</div><div class="k">HTTP Status</div></div><div class="m"><div class="v" id="whTg">-</div><div class="k">Telegram</div></div></div>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>Panggilan 2 AI Asynchronous</h3><span class="badge2">Python / FastAPI</span></div>
+      <p class="sub">Eksekusi model Random Forest (RF) dan Support Vector Machine (SVM) secara paralel menggunakan async/io, ditambah analisis naratif NVIDIA NIM.</p>
+      <label>Data payload untuk dievaluasi oleh AI NIM (<span id="aFeat">Serangan, Anomali, Sentimen, Kepadatan, Enkripsi</span>)</label>
+      <div class="airow"><input id="aIn" value="85,70,-0.6,8500,80"><button class="alt" onclick="jalankanAI()">Jalankan Benchmark AI (Paralel)</button></div>
+      <label class="chk"><input type="checkbox" id="aNim" checked> Sertakan analisis naratif NVIDIA NIM</label>
+      <div class="metric"><div class="m"><div class="v" id="aDur">-</div><div class="k">Waktu Total</div></div><div class="m"><div class="v ok">ASYNC</div><div class="k" id="aSeq">Metode eksekusi</div></div></div>
+      <div class="metric"><div class="m"><div class="k">Hasil NIM (RF)</div><div class="v tag" id="aRf">-</div><div class="k" id="aRfF">Confidence -</div></div><div class="m"><div class="k">Hasil NIM (SVM)</div><div class="v tag" id="aSvm">-</div><div class="k" id="aSvmF">Confidence -</div></div></div>
+      <div class="nim" id="aNimOut"></div>
+    </div>
+
+    <div class="card full">
+      <div style="display:flex;justify-content:space-between;align-items:center"><h3>Log Konsol Sistem &amp; API</h3><button class="ghost" onclick="logEl.textContent=''">Clear</button></div>
+      <pre id="log"></pre>
+    </div>
+  </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const $ = (id) => document.getElementById(id);
+const logEl = $('log');
+const log = (m) => { logEl.textContent = `[${new Date().toLocaleTimeString()}] ${m}\n` + logEl.textContent; };
+
+function setStatus(status, level, pesan, waktu) {
+  // Dua state saja: BAHAYA (merah) atau AMAN (teal)
+  const bahaya = /bahaya|intervensi|critical/i.test(status || '');
+  $('statusCard').className = 'card status ' + (bahaya ? 'bahaya' : '');
+  $('lvl').textContent = bahaya ? 'LEVEL ALERT CRITICAL' : 'SYSTEM SECURED';
+  $('badge').textContent = bahaya ? 'BAHAYA' : 'AMAN';
+  $('lvlMsg').textContent = pesan || '-';
+  $('lvlNum').textContent = level ?? '-';
+  $('lvlTime').textContent = new Date(waktu || Date.now()).toLocaleString('id-ID');
+}
+
+async function hmacHex(key, msg) {
+  const enc = new TextEncoder();
+  const k = await crypto.subtle.importKey('raw', enc.encode(key), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  const sig = await crypto.subtle.sign('HMAC', k, enc.encode(msg));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function kirimWebhook() {
+  const payload = { status: $('sStatus').value, level: +$('sLevel').value, pesan: $('sPesan').value };
+  const body = JSON.stringify(payload);
+  const mode = $('sMissing').checked ? 'missing' : $('sTamper').checked ? 'tamper' : 'valid';
+  const headers = { 'Content-Type': 'application/json' };
+  let sent = body;
+  if (mode !== 'missing') headers['x-signature'] = await hmacHex($('sKey').value, body);
+  if (mode === 'tamper') sent = JSON.stringify({ ...payload, level: 0, pesan: 'payload dimanipulasi' });
+  log(`Webhook [${mode}] → POST /api/webhook`);
+  const r = await fetch('/api/webhook', { method: 'POST', headers, body: sent });
+  const j = await r.json().catch(() => ({}));
+  $('whCode').textContent = r.status;
+  $('whCode').style.color = r.ok ? 'var(--ok)' : 'var(--bad)';
+  $('whTg').textContent = r.ok ? (j.telegram ? 'TERKIRIM' : 'GAGAL') : '-';
+  log(`Respons ${r.status}: ${JSON.stringify(j)}`);
+  if (r.ok) setStatus(payload.status, payload.level, payload.pesan);
+}
+
+async function jalankanAI() {
+  const url = `/api/proses_ai?input=${encodeURIComponent($('aIn').value)}&nim=${$('aNim').checked ? 1 : 0}`;
+  log('GET ' + url);
+  $('aNimOut').textContent = 'Memproses…';
+  const t0 = performance.now();
+  const j = await (await fetch(url)).json();
+  $('aDur').textContent = j.duration_seconds + 's';
+  $('aSeq').textContent = `Metode eksekusi · sekuensial ±${j.sequential_estimate}s`;
+  for (const [id, m] of [['aRf', j.rf], ['aSvm', j.svm]]) {
+    $(id).textContent = m.prediksi; $(id).className = 'v tag ' + m.prediksi.split(' ')[0];
+    $(id + 'F').textContent = `Confidence ${Math.round(m.confidence * 100)}% · F1 ${m.f1_test} · ${m.durasi}s`;
+  }
+  const n = j.nvidia_nim;
+  $('aNimOut').innerHTML = n ? (n.aktif ? `<b>NVIDIA NIM (${n.model}):</b> ${n.analisis}` : n.pesan) : '';
+  $('aNimOut').innerHTML += `<br><b>Rekomendasi produksi:</b> ${j.rekomendasi_produksi}`;
+  log(`AI selesai: paralel ${j.duration_seconds}s (sekuensial ±${j.sequential_estimate}s), round-trip ${((performance.now() - t0) / 1000).toFixed(2)}s`);
+}
+
+const esc = (v) => String(v ?? '-').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+function renderRows(data) {
+  $('rows').innerHTML = data.length ? data.map((r) =>
+    `<tr><td class="tag ${r.status.split(' ')[0]}">${r.status}</td><td>${r.level}</td><td>${esc(r.pesan)}</td></tr>`).join('')
+    : '<tr><td colspan="3" style="color:var(--mut)">Belum ada data</td></tr>';
+}
+
+(async () => {
+  const cfg = await (await fetch('/api/config')).json();
+  $('cTg').textContent = cfg.telegram ? 'Aktif (Telegram Bot API)' : 'Belum diset';
+  $('cHm').textContent = cfg.hmac ? 'AKTIF (SHA-256)' : 'Belum diset';
+  if (cfg.features) {
+    $('aFeat').textContent = cfg.features.map((f) => f.replace(/_/g, ' ')).join(', ');
+    $('aIn').value = cfg.example.join(',');
+  }
+  log('Dashboard dimuat, konfigurasi server dibaca.');
+  if (!cfg.supabaseUrl) { $('cSb').textContent = 'Belum diset'; return; }
+  const sb = supabase.createClient(cfg.supabaseUrl, cfg.supabaseAnonKey);
+  let cache = [];
+  const load = async () => {
+    const { data, error } = await sb.from('report').select('*').order('created_at', { ascending: false }).limit(8);
+    if (error) { log('Supabase: ' + error.message); return; }
+    cache = data; renderRows(data);
+    if (data[0]) setStatus(data[0].status, data[0].level, data[0].pesan, data[0].created_at);
+  };
+  await load();
+  sb.channel('threats').on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'report' }, (p) => {
+    log('Realtime: laporan baru dari Supabase → ' + p.new.status);
+    cache = [p.new, ...cache].slice(0, 8); renderRows(cache);
+    setStatus(p.new.status, p.new.level, p.new.pesan, p.new.created_at);
+  }).subscribe((s) => { $('cSb').textContent = s === 'SUBSCRIBED' ? 'Terhubung' : s; });
+})();
+</script>
+</body>
+</html>

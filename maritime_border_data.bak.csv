@@ -1,0 +1,351 @@
+﻿No,Kode_Sektor,Sinyal_AIS_Mencurigakan,Frekuensi_Transmisi_Ilegal,Indeks_Pelanggaran_Perbatasan,Kecepatan_Angin_Knot,Status_Radar,Laporan_Intelijen_Singkat,Eskalasi
+1,SEK-NATUNA-01,45,393.8,8.3,57,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+2,SEK-AMBALAT-01,15,455.0,5.7,41,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+3,SEK-ARAFURA-01,9,683.2,1.2,9,● Terganggu,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+4,SEK-MALAKA-01,41,770.0,8.6,27,● Aktif,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+5,SEK-SABANG-01,22,527.5,6.1,29,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+6,SEK-SANGIHE-01,2,356.8,3.6,23,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+7,SEK-TIMOR-01,28,476.1,5.3,44,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+8,SEK-PAPUA-01,9,615.4,1.5,12,● Terganggu,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+9,SEK-KARIMATA-01,16,563.1,7.8,33,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+10,SEK-LOMBOK-01,8,916.1,4.4,21,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+11,SEK-MAKASSAR-01,36,370.8,9.8,55,● Terganggu,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+12,SEK-HALMAHERA-01,29,439.8,6.5,31,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+13,SEK-NATUNA-02,3,881.5,4.5,15,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+14,SEK-AMBALAT-02,36,479.5,9.8,35,● Mati,Penerobosan perbatasan terkonfirmasi dengan indeks pelanggaran kritis dan manuver provokatif.,Intervensi Militer
+15,SEK-ARAFURA-02,31,519.1,6.0,30,● Mati,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+16,SEK-MALAKA-02,6,271.8,2.6,34,● Terganggu,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+17,SEK-SABANG-02,31,466.9,5.5,31,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+18,SEK-SANGIHE-02,6,847.5,2.5,9,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+19,SEK-TIMOR-02,21,585.9,6.1,31,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+20,SEK-PAPUA-02,13,279.3,4.4,14,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+21,SEK-KARIMATA-02,48,724.6,8.5,21,● Mati,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+22,SEK-LOMBOK-02,22,480.3,6.5,35,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+23,SEK-MAKASSAR-02,6,305.5,2.3,31,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+24,SEK-HALMAHERA-02,49,704.9,9.6,38,● Aktif,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+25,SEK-NATUNA-03,17,621.7,4.0,43,● Terganggu,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+26,SEK-AMBALAT-03,2,585.0,1.8,17,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+27,SEK-ARAFURA-03,32,509.3,5.9,37,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+28,SEK-MALAKA-03,2,218.7,1.7,29,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+29,SEK-SABANG-03,34,603.4,5.8,40,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+30,SEK-SANGIHE-03,3,318.3,2.2,17,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+31,SEK-TIMOR-03,46,425.5,9.5,35,● Mati,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+32,SEK-PAPUA-03,15,508.9,6.4,26,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+33,SEK-KARIMATA-03,9,937.2,3.2,23,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+34,SEK-LOMBOK-03,47,574.9,9.1,54,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+35,SEK-MAKASSAR-03,23,629.1,7.5,42,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+36,SEK-HALMAHERA-03,0,585.8,4.2,15,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+37,SEK-NATUNA-04,23,478.2,4.8,38,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+38,SEK-AMBALAT-04,6,977.1,4.1,17,● Terganggu,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+39,SEK-ARAFURA-04,14,420.3,5.7,44,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+40,SEK-MALAKA-04,0,165.0,1.8,15,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+41,SEK-SABANG-04,49,395.9,9.2,46,● Mati,Penerobosan perbatasan terkonfirmasi dengan indeks pelanggaran kritis dan manuver provokatif.,Intervensi Militer
+42,SEK-SANGIHE-04,31,625.3,7.0,38,● Terganggu,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+43,SEK-TIMOR-04,12,906.6,4.4,7,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+44,SEK-PAPUA-04,42,465.0,8.3,24,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+45,SEK-KARIMATA-04,33,633.4,7.7,33,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+46,SEK-LOMBOK-04,5,224.8,2.7,17,● Terganggu,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+47,SEK-MAKASSAR-04,14,455.8,7.6,32,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+48,SEK-HALMAHERA-04,10,202.2,2.7,25,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+49,SEK-NATUNA-05,29,640.2,6.7,29,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+50,SEK-AMBALAT-05,4,803.8,2.3,34,● Terganggu,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+51,SEK-ARAFURA-05,40,515.6,8.8,54,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+52,SEK-MALAKA-05,15,464.0,7.4,31,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+53,SEK-SABANG-05,14,511.5,1.9,29,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+54,SEK-SANGIHE-05,46,464.0,9.4,22,● Terganggu,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+55,SEK-TIMOR-05,19,616.1,7.0,34,● Mati,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+56,SEK-PAPUA-05,1,752.3,3.1,27,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+57,SEK-KARIMATA-05,17,456.5,5.8,44,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+58,SEK-LOMBOK-05,3,824.9,2.3,15,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+59,SEK-MAKASSAR-05,34,511.2,7.4,43,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+60,SEK-HALMAHERA-05,6,424.6,2.1,33,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+61,SEK-NATUNA-06,37,474.0,8.2,45,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+62,SEK-AMBALAT-06,17,477.4,4.4,26,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+63,SEK-ARAFURA-06,12,287.9,3.5,29,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+64,SEK-MALAKA-06,38,451.7,9.4,50,● Mati,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+65,SEK-SABANG-06,32,608.6,6.8,40,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+66,SEK-SANGIHE-06,9,244.1,1.7,34,● Terganggu,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+67,SEK-TIMOR-06,23,521.1,7.6,29,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+68,SEK-PAPUA-06,8,207.9,1.9,33,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+69,SEK-KARIMATA-06,16,590.0,4.5,38,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+70,SEK-LOMBOK-06,9,729.7,2.5,13,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+71,SEK-MAKASSAR-06,43,538.5,8.2,42,● Mati,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+72,SEK-HALMAHERA-06,25,583.9,7.9,28,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+73,SEK-NATUNA-07,0,398.7,4.1,21,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+74,SEK-AMBALAT-07,46,693.0,9.5,57,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+75,SEK-ARAFURA-07,28,503.1,5.5,37,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+76,SEK-MALAKA-07,3,627.1,1.9,21,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+77,SEK-SABANG-07,18,529.4,6.3,41,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+78,SEK-SANGIHE-07,11,644.1,3.2,18,● Terganggu,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+79,SEK-TIMOR-07,18,437.4,7.2,26,● Terganggu,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+80,SEK-PAPUA-07,0,677.8,4.5,13,● Terganggu,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+81,SEK-KARIMATA-07,48,498.7,9.2,49,● Aktif,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+82,SEK-LOMBOK-07,29,603.9,6.7,28,● Mati,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+83,SEK-MAKASSAR-07,0,104.5,2.7,9,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+84,SEK-HALMAHERA-07,40,418.8,8.8,43,● Mati,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+85,SEK-NATUNA-08,17,426.6,5.4,26,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+86,SEK-AMBALAT-08,12,434.9,2.4,19,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+87,SEK-ARAFURA-08,24,508.4,6.0,35,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+88,SEK-MALAKA-08,11,110.6,4.3,14,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+89,SEK-SABANG-08,18,601.5,7.8,41,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+90,SEK-SANGIHE-08,12,437.3,3.8,12,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+91,SEK-TIMOR-08,41,794.5,8.5,36,● Mati,Penerobosan perbatasan terkonfirmasi dengan indeks pelanggaran kritis dan manuver provokatif.,Intervensi Militer
+92,SEK-PAPUA-08,21,574.8,6.8,42,● Mati,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+93,SEK-KARIMATA-08,2,442.2,4.3,17,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+94,SEK-LOMBOK-08,49,356.0,8.7,26,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+95,SEK-MAKASSAR-08,24,472.4,6.0,36,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+96,SEK-HALMAHERA-08,9,176.0,3.3,28,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+97,SEK-NATUNA-09,31,465.9,6.8,26,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+98,SEK-AMBALAT-09,1,191.6,2.6,28,● Terganggu,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+99,SEK-ARAFURA-09,28,463.2,3.9,36,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+100,SEK-MALAKA-09,13,173.7,4.3,13,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+101,SEK-SABANG-09,45,773.6,9.5,25,● Mati,Blackout radar intersepsi total bersamaan dengan masuknya formasi kapal cepat tanpa identitas.,Intervensi Militer
+102,SEK-SANGIHE-09,18,476.8,5.6,39,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+103,SEK-TIMOR-09,5,718.6,1.0,12,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+104,SEK-PAPUA-09,40,619.7,9.5,53,● Mati,Blackout radar intersepsi total bersamaan dengan masuknya formasi kapal cepat tanpa identitas.,Intervensi Militer
+105,SEK-KARIMATA-09,30,459.9,6.1,40,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+106,SEK-LOMBOK-09,12,514.1,4.1,14,● Terganggu,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+107,SEK-MAKASSAR-09,27,443.7,7.5,38,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+108,SEK-HALMAHERA-09,7,843.6,1.6,7,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+109,SEK-NATUNA-10,21,494.5,7.9,33,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+110,SEK-AMBALAT-10,7,568.0,3.5,34,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+111,SEK-ARAFURA-10,43,510.5,8.8,39,● Terganggu,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+112,SEK-MALAKA-10,26,508.3,6.1,31,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+113,SEK-SABANG-10,6,262.1,3.4,14,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+114,SEK-SANGIHE-10,41,823.7,8.5,23,● Terganggu,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+115,SEK-TIMOR-10,31,666.7,7.8,44,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+116,SEK-PAPUA-10,12,183.5,2.2,22,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+117,SEK-KARIMATA-10,22,464.3,7.0,32,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+118,SEK-LOMBOK-10,9,638.2,1.7,11,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+119,SEK-MAKASSAR-10,21,628.4,4.8,31,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+120,SEK-HALMAHERA-10,13,647.7,2.2,25,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+121,SEK-NATUNA-11,42,517.0,8.2,43,● Aktif,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+122,SEK-AMBALAT-11,29,581.7,5.7,33,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+123,SEK-ARAFURA-11,4,692.2,2.0,29,● Terganggu,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+124,SEK-MALAKA-11,41,406.8,9.7,54,● Mati,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+125,SEK-SABANG-11,14,470.3,6.6,29,● Mati,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+126,SEK-SANGIHE-11,14,804.8,1.9,17,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+127,SEK-TIMOR-11,22,626.8,7.5,30,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+128,SEK-PAPUA-11,13,714.5,3.3,22,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+129,SEK-KARIMATA-11,25,635.4,6.4,39,● Terganggu,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+130,SEK-LOMBOK-11,8,784.9,3.8,23,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+131,SEK-MAKASSAR-11,49,537.1,8.7,21,● Terganggu,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+132,SEK-HALMAHERA-11,15,631.3,5.6,26,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+133,SEK-NATUNA-12,12,126.7,3.8,16,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+134,SEK-AMBALAT-12,36,557.0,8.2,54,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+135,SEK-ARAFURA-12,23,592.1,6.6,39,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+136,SEK-MALAKA-12,4,974.8,2.5,22,● Terganggu,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+137,SEK-SABANG-12,31,661.8,7.3,26,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+138,SEK-SANGIHE-12,13,836.4,3.0,34,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+139,SEK-TIMOR-12,31,512.8,4.2,39,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+140,SEK-PAPUA-12,12,642.3,4.0,10,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+141,SEK-KARIMATA-12,39,562.7,8.8,40,● Mati,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+142,SEK-LOMBOK-12,22,482.4,6.1,31,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+143,SEK-MAKASSAR-12,5,712.7,3.0,8,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+144,SEK-HALMAHERA-12,42,819.7,8.4,48,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+145,SEK-NATUNA-13,26,595.4,5.2,32,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+146,SEK-AMBALAT-13,5,855.3,3.0,14,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+147,SEK-ARAFURA-13,26,652.8,7.1,36,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+148,SEK-MALAKA-13,6,654.0,1.2,7,● Aktif,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+149,SEK-SABANG-13,20,493.8,7.3,38,● Terganggu,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+150,SEK-SANGIHE-13,2,359.7,4.1,5,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+151,SEK-TIMOR-13,42,556.2,9.7,36,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+152,SEK-PAPUA-13,14,436.3,5.6,41,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+153,SEK-KARIMATA-13,4,831.9,3.9,13,● Terganggu,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+154,SEK-LOMBOK-13,46,545.8,9.6,43,● Mati,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+155,SEK-MAKASSAR-13,16,443.9,6.1,39,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+156,SEK-HALMAHERA-13,13,368.6,3.8,12,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+157,SEK-NATUNA-14,16,425.4,7.8,28,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+158,SEK-AMBALAT-14,14,437.1,1.2,21,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+159,SEK-ARAFURA-14,33,514.6,5.5,31,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+160,SEK-MALAKA-14,9,876.6,4.3,28,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+161,SEK-SABANG-14,41,768.0,8.3,27,● Mati,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+162,SEK-SANGIHE-14,18,576.0,4.8,33,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+163,SEK-TIMOR-14,7,762.5,3.7,15,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+164,SEK-PAPUA-14,40,364.3,8.4,47,● Aktif,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+165,SEK-KARIMATA-14,19,427.3,4.1,40,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+166,SEK-LOMBOK-14,1,796.1,4.3,9,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+167,SEK-MAKASSAR-14,25,662.9,3.8,29,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+168,SEK-HALMAHERA-14,9,907.0,1.1,13,● Terganggu,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+169,SEK-NATUNA-15,19,662.1,4.3,32,● Mati,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+170,SEK-AMBALAT-15,11,596.3,3.9,14,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+171,SEK-ARAFURA-15,46,502.9,9.6,36,● Mati,Penerobosan perbatasan terkonfirmasi dengan indeks pelanggaran kritis dan manuver provokatif.,Intervensi Militer
+172,SEK-MALAKA-15,27,599.1,5.8,40,● Terganggu,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+173,SEK-SABANG-15,1,183.8,2.1,15,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+174,SEK-SANGIHE-15,36,390.4,8.6,46,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+175,SEK-TIMOR-15,19,423.6,4.8,41,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+176,SEK-PAPUA-15,9,413.4,1.5,31,● Terganggu,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+177,SEK-KARIMATA-15,31,619.6,6.5,33,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+178,SEK-LOMBOK-15,3,383.2,3.4,22,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+179,SEK-MAKASSAR-15,31,546.0,7.2,37,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+180,SEK-HALMAHERA-15,13,643.3,3.9,27,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+181,SEK-NATUNA-16,43,697.8,8.3,43,● Mati,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+182,SEK-AMBALAT-16,17,546.3,5.3,41,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+183,SEK-ARAFURA-16,3,721.2,4.3,25,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+184,SEK-MALAKA-16,40,838.6,8.5,42,● Aktif,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+185,SEK-SABANG-16,29,494.6,6.6,28,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+186,SEK-SANGIHE-16,2,720.6,2.8,33,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+187,SEK-TIMOR-16,32,602.6,7.9,43,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+188,SEK-PAPUA-16,2,294.6,3.7,14,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+189,SEK-KARIMATA-16,15,561.8,7.2,34,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+190,SEK-LOMBOK-16,14,244.5,1.3,20,● Aktif,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+191,SEK-MAKASSAR-16,48,768.0,9.7,37,● Mati,Blackout radar intersepsi total bersamaan dengan masuknya formasi kapal cepat tanpa identitas.,Intervensi Militer
+192,SEK-HALMAHERA-16,33,559.2,5.4,40,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+193,SEK-NATUNA-17,11,817.8,3.2,19,● Terganggu,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+194,SEK-AMBALAT-17,45,721.0,9.6,27,● Mati,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+195,SEK-ARAFURA-17,24,610.9,6.9,40,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+196,SEK-MALAKA-17,0,296.8,2.7,7,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+197,SEK-SABANG-17,18,527.8,6.0,30,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+198,SEK-SANGIHE-17,4,983.4,3.3,25,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+199,SEK-TIMOR-17,28,511.6,5.9,25,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+200,SEK-PAPUA-17,7,351.0,1.7,8,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+201,SEK-KARIMATA-17,46,768.4,8.8,42,● Terganggu,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+202,SEK-LOMBOK-17,32,561.4,7.6,40,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+203,SEK-MAKASSAR-17,3,110.0,2.5,22,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+204,SEK-HALMAHERA-17,36,574.5,9.0,30,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+205,SEK-NATUNA-18,25,658.8,6.2,25,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+206,SEK-AMBALAT-18,5,521.7,3.0,22,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+207,SEK-ARAFURA-18,29,664.3,6.5,42,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+208,SEK-MALAKA-18,6,658.3,1.7,8,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+209,SEK-SABANG-18,29,537.6,7.9,43,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+210,SEK-SANGIHE-18,6,102.8,3.2,14,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+211,SEK-TIMOR-18,42,807.3,9.1,46,● Terganggu,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+212,SEK-PAPUA-18,18,664.6,5.5,28,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+213,SEK-KARIMATA-18,12,947.5,1.4,8,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+214,SEK-LOMBOK-18,36,612.0,9.5,55,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+215,SEK-MAKASSAR-18,17,524.5,5.3,37,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+216,SEK-HALMAHERA-18,5,650.4,3.6,8,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+217,SEK-NATUNA-19,32,544.2,5.5,44,● Terganggu,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+218,SEK-AMBALAT-19,14,383.1,3.5,34,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+219,SEK-ARAFURA-19,22,471.8,5.8,29,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+220,SEK-MALAKA-19,0,710.9,1.6,15,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+221,SEK-SABANG-19,43,754.3,9.6,39,● Terganggu,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+222,SEK-SANGIHE-19,23,463.1,7.3,30,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+223,SEK-TIMOR-19,14,185.0,1.4,21,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+224,SEK-PAPUA-19,46,442.6,8.8,43,● Mati,Blackout radar intersepsi total bersamaan dengan masuknya formasi kapal cepat tanpa identitas.,Intervensi Militer
+225,SEK-KARIMATA-19,16,506.9,7.2,32,● Mati,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+226,SEK-LOMBOK-19,3,719.1,2.7,27,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+227,SEK-MAKASSAR-19,23,441.0,5.2,34,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+228,SEK-HALMAHERA-19,9,454.7,3.9,31,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+229,SEK-NATUNA-20,15,629.0,5.0,34,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+230,SEK-AMBALAT-20,0,172.0,3.4,26,● Aktif,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+231,SEK-ARAFURA-20,44,726.8,8.3,22,● Aktif,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+232,SEK-MALAKA-20,29,577.9,4.6,31,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+233,SEK-SABANG-20,9,185.1,2.7,17,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+234,SEK-SANGIHE-20,44,467.5,8.3,26,● Mati,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+235,SEK-TIMOR-20,25,436.2,6.6,29,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+236,SEK-PAPUA-20,12,558.1,1.6,6,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+237,SEK-KARIMATA-20,15,498.2,3.9,36,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+238,SEK-LOMBOK-20,2,219.1,1.9,32,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+239,SEK-MAKASSAR-20,15,611.4,6.5,36,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+240,SEK-HALMAHERA-20,13,449.9,3.6,25,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+241,SEK-NATUNA-21,46,472.5,8.2,23,● Aktif,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+242,SEK-AMBALAT-21,34,646.2,4.3,26,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+243,SEK-ARAFURA-21,7,721.9,1.0,25,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+244,SEK-MALAKA-21,46,403.8,9.1,53,● Aktif,Blackout radar intersepsi total bersamaan dengan masuknya formasi kapal cepat tanpa identitas.,Intervensi Militer
+245,SEK-SABANG-21,14,478.5,4.0,44,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+246,SEK-SANGIHE-21,11,656.2,3.5,12,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+247,SEK-TIMOR-21,14,551.4,6.0,35,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+248,SEK-PAPUA-21,2,333.2,3.9,5,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+249,SEK-KARIMATA-21,14,449.8,5.2,34,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+250,SEK-LOMBOK-21,13,157.8,1.3,28,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+251,SEK-MAKASSAR-21,37,694.9,9.5,50,● Mati,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+252,SEK-HALMAHERA-21,22,428.6,3.9,42,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+253,SEK-NATUNA-22,4,627.1,4.5,21,● Aktif,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+254,SEK-AMBALAT-22,37,618.8,9.7,45,● Aktif,Deteksi transmisi radio militer terenkripsi frekuensi tinggi diiringi 42 sinyal AIS hantu serentak.,Intervensi Militer
+255,SEK-ARAFURA-22,26,573.7,4.3,33,● Mati,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+256,SEK-MALAKA-22,12,876.6,1.7,20,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+257,SEK-SABANG-22,29,465.6,5.3,29,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+258,SEK-SANGIHE-22,8,411.3,3.3,11,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+259,SEK-TIMOR-22,22,515.2,5.7,26,● Aktif,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+260,SEK-PAPUA-22,0,932.3,3.6,23,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+261,SEK-KARIMATA-22,41,585.0,8.3,32,● Terganggu,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+262,SEK-LOMBOK-22,22,637.4,7.8,42,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+263,SEK-MAKASSAR-22,1,157.8,3.5,8,● Aktif,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+264,SEK-HALMAHERA-22,40,491.8,9.6,56,● Mati,Penerobosan perbatasan terkonfirmasi dengan indeks pelanggaran kritis dan manuver provokatif.,Intervensi Militer
+265,SEK-NATUNA-23,22,563.0,5.8,36,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+266,SEK-AMBALAT-23,10,995.9,3.8,19,● Aktif,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+267,SEK-ARAFURA-23,15,454.6,5.2,29,● Terganggu,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+268,SEK-MALAKA-23,14,871.5,3.7,26,● Terganggu,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+269,SEK-SABANG-23,34,596.6,6.0,39,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+270,SEK-SANGIHE-23,5,790.0,4.1,16,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+271,SEK-TIMOR-23,40,769.7,9.0,55,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+272,SEK-PAPUA-23,33,595.4,4.7,34,● Terganggu,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+273,SEK-KARIMATA-23,1,893.5,1.4,20,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+274,SEK-LOMBOK-23,46,834.8,9.5,38,● Mati,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+275,SEK-MAKASSAR-23,20,640.5,7.5,32,● Mati,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+276,SEK-HALMAHERA-23,13,392.7,1.2,18,● Aktif,Kapal nelayan tradisional terpantau melaut dengan transponder AIS aktif pada jarak 12 mil laut.,Normal
+277,SEK-NATUNA-24,22,626.4,7.4,32,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+278,SEK-AMBALAT-24,10,728.3,3.3,6,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+279,SEK-ARAFURA-24,33,467.2,6.5,37,● Mati,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+280,SEK-MALAKA-24,13,543.3,1.3,6,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+281,SEK-SABANG-24,40,511.1,8.6,33,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+282,SEK-SANGIHE-24,28,636.1,6.5,44,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+283,SEK-TIMOR-24,13,729.4,3.9,9,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+284,SEK-PAPUA-24,38,838.2,8.9,50,● Terganggu,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+285,SEK-KARIMATA-24,23,429.4,7.2,32,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+286,SEK-LOMBOK-24,8,611.4,2.9,27,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+287,SEK-MAKASSAR-24,14,432.0,6.3,39,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+288,SEK-HALMAHERA-24,7,701.1,4.4,25,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+289,SEK-NATUNA-25,21,615.6,5.0,44,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+290,SEK-AMBALAT-25,5,237.7,4.0,25,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+291,SEK-ARAFURA-25,39,445.3,8.3,23,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+292,SEK-MALAKA-25,24,475.6,6.0,43,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+293,SEK-SABANG-25,2,771.1,2.2,32,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+294,SEK-SANGIHE-25,49,502.5,9.8,40,● Aktif,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+295,SEK-TIMOR-25,24,666.0,7.7,44,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+296,SEK-PAPUA-25,5,564.1,3.2,19,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+297,SEK-KARIMATA-25,26,455.4,4.1,36,● Terganggu,Kecepatan angin tinggi memicu pergerakan kapal patroli asing mendekati batas batas kontinen perbatasan.,Siaga Maritim
+298,SEK-LOMBOK-25,6,669.1,4.2,18,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+299,SEK-MAKASSAR-25,29,591.4,4.2,26,● Terganggu,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+300,SEK-HALMAHERA-25,7,662.7,4.0,11,● Terganggu,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+301,SEK-NATUNA-26,38,525.5,9.0,39,● Aktif,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+302,SEK-AMBALAT-26,33,447.9,7.3,31,● Terganggu,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+303,SEK-ARAFURA-26,6,445.0,1.7,25,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+304,SEK-MALAKA-26,41,449.7,9.6,29,● Mati,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+305,SEK-SABANG-26,18,600.6,7.4,35,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+306,SEK-SANGIHE-26,10,935.6,4.3,30,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+307,SEK-TIMOR-26,31,606.0,6.6,36,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+308,SEK-PAPUA-26,14,570.8,1.1,29,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+309,SEK-KARIMATA-26,15,519.0,6.1,29,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+310,SEK-LOMBOK-26,9,580.3,2.8,5,● Aktif,"Kondisi hidrografi dan batimetri terpantau normal, tidak ada gelombang transmisi mencurigakan.",Normal
+311,SEK-MAKASSAR-26,39,784.9,9.5,34,● Aktif,Armada kapal perang asing teridentifikasi melanggar batas ZEE tanpa notifikasi diplomatik resmi.,Intervensi Militer
+312,SEK-HALMAHERA-26,18,512.0,7.0,29,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+313,SEK-NATUNA-27,11,314.5,1.5,11,● Aktif,Stasiun pantai mendeteksi pelayaran rutin feri antar-pulau dengan frekuensi komunikasi VHF standar.,Normal
+314,SEK-AMBALAT-27,36,633.2,9.4,38,● Aktif,Kapal selam tanpa identitas terpantau sonar pasif melintasi palung laut wilayah kedaulatan penuh.,Intervensi Militer
+315,SEK-ARAFURA-27,28,513.6,7.8,34,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+316,SEK-MALAKA-27,2,300.5,2.3,16,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+317,SEK-SABANG-27,26,517.0,7.8,41,● Terganggu,Kapal kargo mematikan transponder AIS selama 45 menit sebelum muncul kembali di luar jalur pelayaran resmi.,Siaga Maritim
+318,SEK-SANGIHE-27,10,595.0,1.9,7,● Terganggu,Kapal riset oseanografi berlayar terdaftar dengan izin resmi kementerian luar negeri.,Normal
+319,SEK-TIMOR-27,20,473.3,7.9,30,● Mati,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+320,SEK-PAPUA-27,3,727.1,2.2,18,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+321,SEK-KARIMATA-27,39,652.7,9.9,31,● Aktif,Penerobosan terkoordinasi armada tak berbendera dengan perlindungan jamming elektronik aktif.,Intervensi Militer
+322,SEK-LOMBOK-27,23,520.3,6.1,41,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+323,SEK-MAKASSAR-27,5,230.2,2.3,32,● Terganggu,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+324,SEK-HALMAHERA-27,42,802.3,8.3,22,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+325,SEK-NATUNA-28,22,636.3,7.5,41,● Aktif,Terdeteksi pancaran frekuensi radio VHF tak terdaftar dengan pola lonjakan transmisi berkala.,Siaga Maritim
+326,SEK-AMBALAT-28,0,217.7,4.3,12,● Terganggu,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+327,SEK-ARAFURA-28,27,503.8,6.0,37,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+328,SEK-MALAKA-28,7,507.0,4.3,27,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+329,SEK-SABANG-28,24,581.7,6.9,35,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+330,SEK-SANGIHE-28,3,136.6,1.6,5,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+331,SEK-TIMOR-28,44,682.5,9.6,30,● Aktif,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+332,SEK-PAPUA-28,20,637.3,7.5,44,● Terganggu,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+333,SEK-KARIMATA-28,9,110.9,1.3,17,● Aktif,"Patroli KRI melaporkan situasi maritim kondusif, transmisi radio dalam batas gelombang aman.",Normal
+334,SEK-LOMBOK-28,41,403.3,8.5,43,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+335,SEK-MAKASSAR-28,23,656.9,5.7,31,● Aktif,Konvoi 3 kapal ikan asing tanpa bendera terdeteksi mendekati garis batas ZEE dengan manuver zig-zag.,Siaga Maritim
+336,SEK-HALMAHERA-28,3,452.1,3.3,25,● Aktif,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal
+337,SEK-NATUNA-29,14,554.7,7.7,44,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+338,SEK-AMBALAT-29,7,658.3,1.4,6,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+339,SEK-ARAFURA-29,28,452.8,5.6,40,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+340,SEK-MALAKA-29,7,288.7,3.4,22,● Aktif,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+341,SEK-SABANG-29,49,624.7,9.8,39,● Mati,Indeks ancaman mencapai titik puncak: intersepsi taktis dan penguncian target radar darurat diberlakukan.,Intervensi Militer
+342,SEK-SANGIHE-29,15,456.3,7.4,26,● Aktif,Anomali akustik bawah air terdeteksi hidrofon pantai pada kontur kedalaman 120 meter.,Siaga Maritim
+343,SEK-TIMOR-29,5,347.3,1.3,6,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+344,SEK-PAPUA-29,45,795.3,9.0,43,● Mati,Penolakan kontak radio interogasi maritim dan manuver membahayakan terhadap kapal patroli Bakamla.,Intervensi Militer
+345,SEK-KARIMATA-29,19,617.7,7.0,43,● Aktif,Sinyal AIS duplikat terdeteksi dari dua posisi terpisah berjarak 8 mil laut (indikasi AIS spoofing).,Siaga Maritim
+346,SEK-LOMBOK-29,1,869.4,3.1,28,● Aktif,Pengecekan sinyal AIS menunjukkan verifikasi MMSI valid untuk armada kargo internasional.,Normal
+347,SEK-MAKASSAR-29,30,434.9,5.5,31,● Aktif,Kapal tunda (tugboat) asing terdeteksi membawa muatan berlebih tanpa laporan pelabuhan asal.,Siaga Maritim
+348,SEK-HALMAHERA-29,13,207.4,1.5,11,● Terganggu,Pemantauan radar pantai merekam 8 kontak kapal tanker transit damai pada kecepatan 14 knot.,Normal
+349,SEK-NATUNA-30,24,478.3,4.1,32,● Aktif,Pancaran sinyal radar navigasi berulang kali mengalami degradasi sinyal jamming sporadis.,Siaga Maritim
+350,SEK-AMBALAT-30,10,935.8,3.2,17,● Terganggu,Lalu lintas kapal niaga kontainer berjalan sesuai koridor TSS resmi tanpa anomali kecepatan.,Normal

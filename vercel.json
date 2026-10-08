@@ -1,0 +1,8 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "functions": {
+    "api/proses_ai.py": { "includeFiles": "api/model.json", "maxDuration": 30 },
+    "api/config.js": { "includeFiles": "api/model.json" }
+  }
+}
