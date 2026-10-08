@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sentinel Security</title>
+<title>Perwira Security</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#070b16;--glass:rgba(255,255,255,.05);--line:rgba(255,255,255,.09);--txt:#e6ebf5;--mut:#8b96ad;
+  :root{--bg:#000;--glass:rgba(255,255,255,.05);--line:rgba(255,255,255,.09);--txt:#e6ebf5;--mut:#8b96ad;
     --ok:#22c55e;--warn:#f59e0b;--bad:#ef4444;--acc:#6366f1;--acc2:#14b8a6}
   *{box-sizing:border-box}
   body{margin:0;font-family:'Plus Jakarta Sans',sans-serif;color:var(--txt);background:var(--bg);
-    background-image:radial-gradient(circle at 15% 10%,rgba(99,102,241,.18),transparent 40%),radial-gradient(circle at 85% 80%,rgba(20,184,166,.14),transparent 40%);min-height:100vh}
+    background-image:none;min-height:100vh}
   header{display:flex;justify-content:space-between;align-items:center;padding:20px 28px;border-bottom:1px solid var(--line)}
   .brand{display:flex;gap:12px;align-items:center}.brand b{font-size:18px;letter-spacing:.5px}.brand small{display:block;color:var(--mut);font-size:12px}
   .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--acc),var(--acc2))}
@@ -37,7 +37,7 @@
   .metric{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
   .m{background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
   .m .v{font-size:22px;font-weight:800}.m .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px}
-  .tag{font-weight:700}.tag.Aman,.tag.Normal{color:var(--acc2)}.tag.Waspada,.tag.Siaga{color:var(--warn)}.tag.Bahaya,.tag.Intervensi{color:var(--bad)}
+  .tag{font-weight:700}.tag.Aman{color:var(--acc2)}.tag.Bahaya{color:var(--bad)}
   .nim{margin-top:12px;font-size:12.5px;color:var(--mut);line-height:1.5}
   pre{font-family:'JetBrains Mono',monospace;font-size:12px;margin:0;max-height:260px;overflow:auto;color:#a5b4fc;white-space:pre-wrap}
   table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--mut);font-weight:600}
@@ -53,7 +53,7 @@
 </head>
 <body>
 <header>
-  <div class="brand"><div class="logo"></div><div><b>SENTINEL SECURITY</b><small>Sistem Monitoring Keamanan &amp; Integrasi AI Realtime</small></div></div>
+  <div class="brand"><div class="logo"></div><div><b>PERWIRA SECURITY</b><small>Sistem Monitoring Keamanan &amp; Integrasi AI Realtime</small></div></div>
   <span class="pill" id="sys"><span class="dot"></span>Sistem Online</span>
 </header>
 
@@ -83,7 +83,7 @@
       <div class="head"><h3>Simulator Webhook HMAC Supabase</h3><span class="badge2">Node.js</span></div>
       <p class="sub">Simulasikan database Supabase mengirim laporan ke endpoint webhook dengan tanda tangan digital HMAC (Web Crypto API).</p>
       <div class="row">
-        <div><label>Status</label><select id="sStatus"><option value="Bahaya Nasional">BAHAYA (Kirim Peringatan Ancaman)</option><option value="Aman">AMAN (Kondisi Normal)</option></select></div>
+        <div><label>Status</label><select id="sStatus"><option value="Bahaya Nasional">BAHAYA</option><option value="Aman">AMAN</option></select></div>
         <div><label>Level Ancaman</label><select id="sLevel"><option value="3">3 (Tinggi)</option><option value="2">2 (Sedang)</option><option value="1">1 (Rendah)</option><option value="0">0 (Normal)</option></select></div>
       </div>
       <label>Pesan Laporan</label><input id="sPesan" value="Percobaan login tidak sah terdeteksi di database port 5432">
@@ -164,19 +164,20 @@ async function jalankanAI() {
   $('aDur').textContent = j.duration_seconds + 's';
   $('aSeq').textContent = `Metode eksekusi · sekuensial ±${j.sequential_estimate}s`;
   for (const [id, m] of [['aRf', j.rf], ['aSvm', j.svm]]) {
-    $(id).textContent = m.prediksi; $(id).className = 'v tag ' + m.prediksi.split(' ')[0];
+    $(id).textContent = dua(m.prediksi); $(id).className = 'v tag ' + dua(m.prediksi);
     $(id + 'F').textContent = `Confidence ${Math.round(m.confidence * 100)}% · F1 ${m.f1_test} · ${m.durasi}s`;
   }
   const n = j.nvidia_nim;
-  $('aNimOut').innerHTML = n ? (n.aktif ? `<b>NVIDIA NIM (${n.model}):</b> ${n.analisis}` : n.pesan) : '';
+  $('aNimOut').innerHTML = n ? (n.aktif ? `<b>Hasil NIM: <span class="tag ${n.kategori}">${n.kategori.toUpperCase()}</span></b><br>${n.analisis}` : n.pesan) : '';
   $('aNimOut').innerHTML += `<br><b>Rekomendasi produksi:</b> ${j.rekomendasi_produksi}`;
   log(`AI selesai: paralel ${j.duration_seconds}s (sekuensial ±${j.sequential_estimate}s), round-trip ${((performance.now() - t0) / 1000).toFixed(2)}s`);
 }
 
+const dua = (s) => /aman|normal/i.test(s || '') ? 'Aman' : 'Bahaya';
 const esc = (v) => String(v ?? '-').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 function renderRows(data) {
   $('rows').innerHTML = data.length ? data.map((r) =>
-    `<tr><td class="tag ${r.status.split(' ')[0]}">${r.status}</td><td>${r.level}</td><td>${esc(r.pesan)}</td></tr>`).join('')
+    `<tr><td class="tag ${dua(r.status)}">${dua(r.status)}</td><td>${r.level}</td><td>${esc(r.pesan)}</td></tr>`).join('')
     : '<tr><td colspan="3" style="color:var(--mut)">Belum ada data</td></tr>';
 }
 

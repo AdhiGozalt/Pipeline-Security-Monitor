@@ -1,5 +1,5 @@
 """GET /api/proses_ai?input=<data> — RF + SVM paralel (asyncio.gather) + analisis naratif NVIDIA NIM."""
-import asyncio, json, math, os, time
+import asyncio, json, math, os, re, time
 from pathlib import Path
 
 import httpx
@@ -22,6 +22,11 @@ def parse(raw: str):
     return DEFAULT
 
 
+def dua_status(label: str) -> str:
+    """Sederhanakan kelas model jadi dua status: Aman atau Bahaya."""
+    return "Aman" if re.search(r"aman|normal", label, re.I) else "Bahaya"
+
+
 def scale(x):
     return [(a - m) / s for a, m, s in zip(x, M["scaler"]["mean"], M["scaler"]["scale"])]
 
@@ -36,14 +41,14 @@ def rf_predict(x):
         tot = sum(dist) or 1
         votes = [a + b / tot for a, b in zip(votes, dist)]
     i = max(range(len(votes)), key=votes.__getitem__)
-    return M["classes"][i], votes[i] / len(M["rf"])
+    return dua_status(M["classes"][i]), votes[i] / len(M["rf"])
 
 
 def svm_predict(x):
     scores = [sum(c * f for c, f in zip(w, x)) + b for w, b in zip(M["svm"]["coef"], M["svm"]["intercept"])]
     i = max(range(len(scores)), key=scores.__getitem__)
     exps = [math.exp(v - scores[i]) for v in scores]  # softmax skor margin -> confidence
-    return M["classes"][i], scores[i], exps[i] / sum(exps)
+    return dua_status(M["classes"][i]), scores[i], exps[i] / sum(exps)
 
 
 async def run_rf(x):
@@ -67,7 +72,7 @@ async def run_nim(raw, x):
     if not key:
         return {"aktif": False, "pesan": "NVIDIA_API_KEY belum diset"}
     prompt = (f"Data indikator keamanan: {dict(zip(M['features'], x))}. Konteks: {raw}. "
-              f"Beri analisis ancaman singkat 1-2 kalimat bahasa Indonesia, akhiri dengan kategori: {'/'.join(M['classes'])}.")
+              f"Beri analisis ancaman singkat 1-2 kalimat bahasa Indonesia, akhiri dengan kategori: Aman/Bahaya.")
     try:
         async with httpx.AsyncClient(timeout=15) as c:
             r = await c.post(NIM_URL, headers={"Authorization": f"Bearer {key}"},
@@ -75,7 +80,9 @@ async def run_nim(raw, x):
                                    "chat_template_kwargs": {"enable_thinking": False},
                                    "messages": [{"role": "system", "content": "/no_think"}, {"role": "user", "content": prompt}]})
             r.raise_for_status()
-            return {"aktif": True, "model": NIM_MODEL, "analisis": r.json()["choices"][0]["message"]["content"].strip()}
+            teks = r.json()["choices"][0]["message"]["content"].strip()
+            return {"aktif": True, "model": NIM_MODEL, "analisis": teks,
+                    "kategori": "Bahaya" if re.search(r"bahaya", teks, re.I) else "Aman"}
     except Exception as e:
         return {"aktif": False, "pesan": f"NIM error: {e}"}
 
